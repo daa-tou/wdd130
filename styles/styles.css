@@ -35,6 +35,12 @@
         max-width: 840px;
     }
     
+    aside h2 {
+        position: absolute;
+        top: 47px;
+        left: 150px;
+    }
+    
     aside {
         width: 20rem;
         margin: 1rem;
