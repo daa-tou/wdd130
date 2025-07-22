@@ -1,1 +1,75 @@
-:root {}
+:root {
+    --primary_Color1: #DF5A4C;
+    --secondary_color2: #E2695C;
+    --color3: #E3EBFF;
+    --color4: #ECE8EF;
+    --heading-font: "PT Serif", serif;
+    --body-font: "Inconsolata", serif;
+}
+
+header {
+    background-color: var(--primary_Color1);
+    color: var(--secondary_color2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--primary_Color1);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary_Color1);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16%;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--primary_Color1);
+    color: #fff;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
